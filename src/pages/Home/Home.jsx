@@ -1,5 +1,5 @@
 import './Home.css'
-import rectangle from '../../assets'
+import rectangle from '../../assets/Rectangle2.png'
 import frame from '../../assets/Frame32.png'
 import image from '../../assets/image8.png'
 import image2 from '../../assets/image9.png'
