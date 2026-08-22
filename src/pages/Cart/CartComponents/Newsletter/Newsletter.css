@@ -1,0 +1,107 @@
+.newsletter_container {
+	width: 1240px;
+	height: 180px;
+	position: absolute;
+	z-index: 1;
+	margin-left: 130px;
+	justify-content: space-between;
+	border-radius: 20px;
+	margin-top: 30px;
+	padding-top: 3px;
+	padding-right: 64px;
+	padding-bottom: 36px;
+	padding-left: 64px;
+	background-color: #000000;
+	border-radius: 20px;
+	padding: 36px 64px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 32px;
+	box-sizing: border-box;
+	font-family:
+		-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.newsletter_h1 {
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: 900;
+	line-height: 1.15;
+	margin: 0;
+	text-transform: uppercase;
+	max-width: 550px;
+	letter-spacing: -0.5px;
+}
+
+.newsletter_form {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	width: 100%;
+	max-width: 350px;
+}
+
+.newsletter_in {
+	display: flex;
+	align-items: center;
+	background-color: #ffffff;
+	border-radius: 62px;
+	padding: 12px 18px;
+	gap: 10px;
+	box-sizing: border-box;
+}
+
+.newsletter_icon {
+	color: #999999;
+	font-size: 16px;
+}
+
+.newsletter_input {
+	width: 100%;
+	border: none;
+	background: transparent;
+	outline: none;
+	font-size: 14px;
+	color: #000000;
+	padding: 0;
+}
+
+.newsletter_input::placeholder {
+	color: #999999;
+}
+
+.newsletter_btn {
+	width: 100%;
+	padding: 12px 20px;
+	background-color: #ffffff;
+	color: #000000;
+	border: none;
+	border-radius: 62px;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: opacity 0.2s ease;
+}
+
+@media (max-width: 400px) {
+	.newsletter_container {
+		width: 100%;
+		position: relative;
+		margin-left: 0;
+		margin-top: 20px;
+		height: auto;
+		padding: 24px 16px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.newsletter_h1 {
+		font-size: 24px;
+	}
+
+	.newsletter_form {
+		max-width: 100%;
+	}
+}
