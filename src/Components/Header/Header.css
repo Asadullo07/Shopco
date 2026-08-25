@@ -93,6 +93,7 @@
 }
 
 .header-actions button,
+.header-actions a,
 .mobile-menu {
 	display: inline-flex;
 	align-items: center;
@@ -101,6 +102,7 @@
 	border: 0;
 	color: #000000;
 	background: transparent;
+	text-decoration: none;
 	cursor: pointer;
 }
 

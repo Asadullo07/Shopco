@@ -1,20 +1,21 @@
+import { Link } from 'react-router-dom'
 import { FiChevronDown, FiSearch, FiShoppingCart, FiUser } from 'react-icons/fi'
 import './header.css'
 
 function Header() {
 	return (
 		<header className="site-header">
-			<a className="brand" href="/" aria-label="SHOP.CO home">
+			<Link className="brand" to="/" aria-label="SHOP.CO home">
 				SHOP.CO
-			</a>
+			</Link>
 
 			<nav className="main-nav" aria-label="Main navigation">
-				<a href="#shop" className="shop-link">
+				<Link to="/category" className="shop-link">
 					Shop <FiChevronDown />
-				</a>
-				<a href="#sale">On Sale</a>
-				<a href="#new-arrivals">New Arrivals</a>
-				<a href="#brands">Brands</a>
+				</Link>
+				<Link to="/category">On Sale</Link>
+				<Link to="/category">New Arrivals</Link>
+				<Link to="/category">Brands</Link>
 			</nav>
 
 			<label className="search-box">
@@ -23,9 +24,9 @@ function Header() {
 			</label>
 
 			<div className="header-actions">
-				<button type="button" aria-label="Shopping cart">
+				<Link to="/cart" aria-label="Shopping cart">
 					<FiShoppingCart />
-				</button>
+				</Link>
 				<button type="button" aria-label="Account">
 					<FiUser />
 				</button>
