@@ -1,6 +1,11 @@
-const Category = () => {
+import './Category.css'
+
+function Category() {
 	return (
-		<div>Category</div>
+		<div className="category-page">
+			<h1>Category Page</h1>
+			<p>Browse products by category</p>
+		</div>
 	)
 }
 

@@ -1,18 +1,10 @@
-import "./Cart.css"
-import InCart from './CartComponents/InCart/InCart'
-import Newsletter from './CartComponents/Newsletter/Newsletter'
-import Order from './CartComponents/Order/Order'
-import YourCart from './CartComponents/yourCart/YourCart'
+import './Cart.css'
 
-const Cart = () => {
+function Cart() {
 	return (
-		<div>
-			<YourCart/>
-			<div className='df'>
-				<InCart/>
-			<Order/>
-			</div>
-			<Newsletter/>
+		<div className="cart-page">
+			<h1>Shopping Cart</h1>
+			<p>Your cart is empty</p>
 		</div>
 	)
 }

@@ -1,0 +1,10 @@
+/* Category page styles */
+.category-page {
+	padding: 40px 20px;
+	min-height: 100vh;
+}
+
+.category-page h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}

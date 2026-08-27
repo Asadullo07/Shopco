@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FiChevronDown, FiSearch, FiShoppingCart, FiUser } from 'react-icons/fi'
-import './header.css'
+import './Header.css'
 
 function Header() {
 	return (
