@@ -1,16 +1,93 @@
-# React + Vite
+# Shopco - E-commerce Fashion Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce application built with React and Vite, featuring a responsive design and smooth user experience.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Shopco is a fashion e-commerce platform showcasing products, categories, shopping cart functionality, and detailed product views. Built with the latest React technologies.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🏠 **Home Page**: Hero section, new arrivals, top selling products, and customer reviews
+- 🛍️ **Product Catalog**: Browse products by category and style
+- 🛒 **Shopping Cart**: Add and manage items
+- 📱 **Responsive Design**: Mobile-first approach
+- ⚡ **Fast Performance**: Vite-powered build system with HMR
 
-## Expanding the ESLint configuration
+## Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Language**: JavaScript (React 19)
+- **Framework**: React + Vite
+- **Routing**: React Router DOM v7
+- **Icons**: React Icons
+- **Styling**: CSS Modules
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/Asadullo07/Shopco.git
+cd Shopco
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+### Lint Code
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```
+src/
+├── Components/
+│   ├── Header/        # Navigation header with search
+│   └── Footer/        # Footer with links and social media
+├── pages/
+│   ├── Home/          # Landing page with hero and products
+│   ├── Category/      # Product category browsing
+│   ├── Cart/          # Shopping cart
+│   └── ProductDetails/  # Individual product view
+├── assets/            # Images and static files
+├── App.jsx            # Main app router
+└── main.jsx           # React entry point
+```
+
+## Live Demo
+
+Visit the live application: [https://shopco-seven-taupe.vercel.app](https://shopco-seven-taupe.vercel.app)
+
+## License
+
+MIT License - feel free to use this project for learning and development.
